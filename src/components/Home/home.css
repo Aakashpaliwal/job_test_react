@@ -1,0 +1,43 @@
+.parent_container {
+	margin: 10px 0;
+}
+.right_search {
+	float: right;
+}
+.right_search .form-check-input {
+	margin: 0 10px;
+}
+.filter_container {
+	display: flex;
+}
+.item {
+  /*flex-grow: 1;*/
+  /*height: 100px;*/
+  width: 150px;
+}
+
+.item + .item {
+  margin-left: 5%;
+}
+.content_section {
+	margin: 20px 0;
+}
+.job_inner_content {
+	border: solid 1px #e1e1e1;
+	padding: 20px;
+	margin: 20px 0;
+}
+.company_logo {
+	border: solid 1px #e1e1e1;
+	border-radius: 50%;
+	padding: 10px 12px;
+	background-color: #e1e1e1;
+}
+.social_icon ul {
+	list-style: none;
+}
+.social_icon ul li {
+	display: inline-block;
+	margin: 0 15px;
+	font-size: 25px;
+}
